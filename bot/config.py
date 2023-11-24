@@ -21,7 +21,7 @@ try:
     BOT_TOKEN = config("BOT_TOKEN")
     DEV = 5467555331
     OWNER = config("OWNER")
-    ffmpegcode = ["-preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By AnshuSharma (https://github.com/Anshusharma75/TG-videoCompress)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
+    ffmpegcode = ["-preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1 -metadata title=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾 -metadata author=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾 -metadata:s:s:0 title=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾 -metadata:s:a:0 title=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾 -metadata:s:v:0 title=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾 -metadata:s:s:1 title=𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆:@𝖫𝗈𝗐_𝖬𝖻_𝖹𝗈𝗇𝖾"]
     THUMB = config("THUMBNAIL")
 except Exception as e:
     print("Environment vars Missing")
