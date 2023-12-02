@@ -1,7 +1,6 @@
 aiohttp
 python-decouple
 pyaesni
-procfile
 psutil
 telethon
 html_telegraph_poster
